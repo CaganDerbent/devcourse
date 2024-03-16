@@ -1,0 +1,230 @@
+
+  
+  .link{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar ul li .link:hover{
+    text-decoration: underline;
+  }
+  .box {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    backdrop-filter: blur(3px);
+  }
+  
+  
+  h2 {
+    position: absolute;
+    top: 30px;
+    font-size: 2em;
+    
+  }
+  
+  .inputarea {
+    width: 310px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid black;
+  
+  }
+  .inputarea input {
+    background: transparent;
+    border: none;
+    height: 50px;
+    width: 272px;
+    outline: 0;
+  
+  }
+  
+  
+  
+  
+  #email {
+    position: absolute;
+    top: 120px;
+  }
+  
+  #password {
+    position: absolute;
+    top: 220px;
+  }
+  #username {
+    position: absolute;
+    top: 320px;
+  }
+  
+  .stuff {
+    position: absolute;
+    bottom: 80px;
+    
+  }
+  
+  .stuff a {
+    text-decoration: none;
+  }
+  .stuff a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .register {
+    position: absolute;
+    bottom: 20px;
+  }
+  .register a {
+    text-decoration: none;
+  }
+  
+  .register a:hover {
+    text-decoration: underline;
+  }
+  
+  .inputarea label {
+    position: absolute;
+    left: 3px;
+  }
+  
+  .inputarea input {
+    padding-left: 4px;
+  }
+  
+  #email label {
+    position: absolute;
+    top: 15px;
+  }
+  
+  #password label {
+    position: absolute;
+    top: 15px;
+  }
+  #username label {
+    position: absolute;
+    top: 15px;
+  }
+  
+  #checkbox {
+    width: 14px;
+    height: 12px;
+  }
+  
+
+  
+  
+  .fa-envelope {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 15px;
+    right: 4px;
+  }
+  .fa-lock {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 15px;
+    right: 4px;
+  
+  
+  }
+  
+  .fa-user {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 15px;
+    right: 4px;
+  
+  
+  }
+  .fa-lock:hover {
+    cursor: pointer;
+  }
+  .fa-envelope:hover{
+    cursor: pointer;
+  
+  }
+  .fa-user:hover {
+    cursor: pointer;
+  }
+  
+  .fa-right-to-bracket {
+    color: black;
+  }
+  .bar {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 50px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+  .bar:hover {
+    cursor: pointer;
+  }
+  .circle {
+    transition: 0.6s;
+    margin-left: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: black;
+  }
+  .circle:hover{
+    cursor: pointer;
+  }
+  #off {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: 1.4em;
+  }
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #logout{
+    width: 120px;
+    height: 30px;
+    background-color: #31C48D;
+    border: none;
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+  
+  
+  }
+  
+  .menu{
+    padding-top: 10px;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    display: none;
+  }
+  #logout:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor: pointer;
+  }
+  
+
+  #user{
+    text-align: center;
+  }
+  
+  
+  
