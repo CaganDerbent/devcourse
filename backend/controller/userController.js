@@ -40,8 +40,8 @@ const signupUser = async (req,res)=>{
     try{
 
         if( !password  || !email ){
-            res.status(401).json("Empty value dedected.");
-            throw Error("Empty value dedected.")
+            res.status(401).json("Boş değer var.");
+            throw Error("Boş değer var.")
             
         }
 
@@ -99,7 +99,7 @@ const usercourseList = async (req, res) => {
         res.status(200).json({usercourses,message:"Kurs başarıyla sepete eklendi."});
     } catch (err) {
         console.error(err);
-        res.status(500).json({ error: 'Internal server error' });
+        res.status(500).json({ error: 'Error' });
     }
 };
 

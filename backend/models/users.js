@@ -26,7 +26,7 @@ const userSchema = new Schema({
 userSchema.statics.login = async function (email, password) {
 
     if(!email || !password){
-        console.log(username,password) // undefined
+        console.log(email,password) // undefined
         throw Error("Boş alan bırakılmış !")
     }
 

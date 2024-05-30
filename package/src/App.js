@@ -72,7 +72,7 @@ const App = () => {
         >
     
           <Route path={user ? `/user/${user.id}/kurslarim`:'/'} element={<Starter />} />
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Cards />} />
           <Route path="/alerts" element={<Alerts />} />
           <Route path="/form" element={<Forms to="/" />} />
 

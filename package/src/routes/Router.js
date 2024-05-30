@@ -45,7 +45,7 @@ const ThemeRoutes = () => {
           path="/"
           element={<FullLayout />}
         >
-          <Route path="/" element={<Navigate to="/" />} />
+          <Route path="/" element={<Cards />} />
           <Route path="/starter" element={<Starter />} />
           <Route path="/about" element={<About />} />
           <Route path="/alerts" element={<Alerts />} />

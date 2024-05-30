@@ -69,6 +69,7 @@ const ProjectTables = () => {
  
       }
       if(response.message.status === "failure"){
+        setVis("visible")
         setMessage(response.message.errorMessage + ".")
 
       }
