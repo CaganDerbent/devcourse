@@ -12,8 +12,8 @@ router.get("/user/list",requireAuth,userList);
 router.post("/user/:id/courses",requireAuth,usercourseList);
 router.get("/user/:id/courses",requireAuth,getusercourseList);
 
-router.put("/user/:id/courses",requireAuth,deleteCourse);
-router.put("/user/:id/courses/reset",requireAuth,resetCart);
+router.delete("/user/:id/courses",requireAuth,deleteCourse);
+router.delete("/user/:id/courses/reset",requireAuth,resetCart);
 
 router.post('/user/:id/boughtcourses',requireAuth,boughtcourseAdd);
 router.get('/user/:id/boughtcourses',requireAuth,boughtcoursesList);

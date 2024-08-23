@@ -1,6 +1,6 @@
-import ProjectTables from "../../components/dashboard/ProjectTable";
+import ProjectTables from "../pages/ProjectTable";
 import { Row, Col, Table, Card, CardTitle, CardBody } from "reactstrap";
-import { useAuthContext } from "../../components/hook/useAuthContext";
+import { useAuthContext } from "../../hooks/useAuthContext";
 import { useState,useEffect } from "react";
 
 const Tables = () => {

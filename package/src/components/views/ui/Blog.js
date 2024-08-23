@@ -9,7 +9,7 @@ import {
   Badge
 } from "reactstrap";
 import { useState,useEffect } from "react";
-import { useAuthContext } from "../hook/useAuthContext";
+import { useAuthContext } from "../../../hooks/useAuthContext";
 
 const Blog = (props) => {
 

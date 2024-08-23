@@ -20,7 +20,7 @@ import Logo from "./Logo";
 import { ReactComponent as LogoWhite } from "../assets/images/logos/materialprowhite.svg";
 import user1 from "../assets/images/users/user6.png";
 
-import { useAuthContext } from '../components/hook/useAuthContext'
+import { useAuthContext } from '../hooks/useAuthContext'
 
 const Header = () => {
 

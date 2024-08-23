@@ -125,7 +125,7 @@ GradientCircleProgressbar.propTypes = {
 };
 
 GradientCircleProgressbar.defaultProps = {
-  width: 100, // Değişiklik yapıldı, artık varsayılan değer 100px
+  width: 100, 
   strokeWidth: 5,
   strokeLinecap: 'round',
   fontSize: 'inherit',

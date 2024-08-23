@@ -18,7 +18,7 @@
 
 import { lazy } from "react";
 import { Navigate } from "react-router-dom";
-import { useAuthContext } from "./components/hook/useAuthContext.js";
+import { useAuthContext } from "./hooks/useAuthContext.js";
 
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 
@@ -29,26 +29,27 @@ const FullLayout = lazy(() => import("./layouts/FullLayout.js"))
 
 /***** Pages ****/
 
-const Starter = lazy(() => import("./views/Starter.js"));
-const About = lazy(() => import("./views/About.js"));
-const Alerts = lazy(() => import("./views/ui/Alerts"));
-const Badges = lazy(() => import("./views/ui/Badges"));
-const Buttons = lazy(() => import("./views/ui/Buttons"));
-const Cards = lazy(() => import("./views/ui/Cards"));
-const Grid = lazy(() => import("./views/ui/Grid"));
-const Tables = lazy(() => import("./views/ui/Tables"));
-const Forms = lazy(() => import("./views/ui/Forms"));
-const Breadcrumbs = lazy(() => import("./views/ui/Breadcrumbs"));
-const Blog = lazy(() => import("./components/dashboard/Blog.js"));
-const Login = lazy(() => import("./components/dashboard/Login.js"));
-const Register = lazy(() => import("./components/dashboard/Register.js"));
-const Programming = lazy(() => import("./views/ui/Programming.js"));
-const Datasc = lazy(() => import("./views/ui/Datasc.js"));
-const Database = lazy(() => import("./views/ui/Database.js"));
-const Game = lazy(() => import("./views/ui/Game.js"));
-const Web = lazy(() => import("./views/ui/Web.js"));
-const Mobile = lazy(() => import("./views/ui/Mobile.js"));
-const Software = lazy(() => import("./views/ui/Software.js"));
+const Starter = lazy(() => import("./components/other/Starter.js"));
+const About = lazy(() => import("./components/pages/About.js"));
+const Alerts = lazy(() => import("./components/views/ui/Alerts.js"));
+const Badges = lazy(() => import("./components/views/ui/Badges.js"));
+const Buttons = lazy(() => import("./components/views/ui/Buttons.js"));
+const Cards = lazy(() => import("./components/pages/Cards.js"));
+const Grid = lazy(() => import("./components/views/ui/Grid.js"));
+const Tables = lazy(() => import("./components/other/Tables.js"));
+const Forms = lazy(() => import("./components/views/ui/Forms.js"));
+const Breadcrumbs = lazy(() => import("./components/views/ui/Breadcrumbs.js"));
+const Blog = lazy(() => import("./components/views/ui/Blog.js"));
+const Login = lazy(() => import("./components/pages/Login.js"));
+const Register = lazy(() => import("./components/pages/Register.js"));
+const Programming = lazy(() => import("./components/pages/Programming.js"));
+const Datasc = lazy(() => import("./components/pages/Datasc.js"));
+const Database = lazy(() => import("./components/pages/Database.js"));
+const Game = lazy(() => import("./components/pages/Game.js"));
+const Web = lazy(() => import("./components/pages/Web.js"));
+const Mobile = lazy(() => import("./components/pages/Mobile.js"));
+const Software = lazy(() => import("./components/pages/Software.js"));
+
 
 
 

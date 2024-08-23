@@ -4,7 +4,7 @@ import user2 from "../../assets/images/users/user2.jpg";
 import user3 from "../../assets/images/users/user3.jpg";
 import user4 from "../../assets/images/users/user4.jpg";
 import user5 from "../../assets/images/users/user5.jpg";
-import { useAuthContext } from "../hook/useAuthContext";
+import { useAuthContext } from "../../hooks/useAuthContext";
 import { useState,useEffect } from "react";
 import {
 
@@ -18,7 +18,7 @@ import {
   Alert
 } from "reactstrap"
 import { json } from "react-router-dom";
-import GradientCircleProgressbar from "./GradientCircleProgressbar";
+import GradientCircleProgressbar from "../other/GradientCircleProgressbar";
 
 const ProjectTables = () => {
 

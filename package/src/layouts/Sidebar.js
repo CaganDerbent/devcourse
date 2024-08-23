@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import user1 from "../assets/images/users/user6.png";
 import probg from "../assets/images/bg/download.jpg";
 
-import { useAuthContext } from "../components/hook/useAuthContext";
+import { useAuthContext } from '../hooks/useAuthContext'
 
 
 const Sidebar = () => {

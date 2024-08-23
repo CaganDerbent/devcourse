@@ -52,6 +52,12 @@ userSchema.statics.login = async function (email, password) {
 
 userSchema.statics.signup = async function(email,password,username) {
 
+    if(!email || !password){
+        console.log(email,password) // undefined
+        throw Error("Boş alan bırakılmış !")
+    }
+
+
     const mewcud = await this.findOne({email})
 
     if(mewcud){

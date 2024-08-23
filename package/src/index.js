@@ -6,7 +6,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
 import Loader from "./layouts/loader/Loader";
-import { AuthContextProvider } from './components/context/AuthContext'
+import { AuthContextProvider } from './context/AuthContext'
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);

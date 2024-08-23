@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import { useAuthContext } from '../hook/useAuthContext'
+import { useAuthContext } from "../../hooks/useAuthContext";
 import { useNavigate } from 'react-router-dom';
 import {Alert,Alerts} from "reactstrap"
 import { Link } from "react-router-dom";
-import './form.css'
+import '../../form.css'
 
 
 const Login = ()=>{

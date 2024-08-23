@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useEffect } from 'react';
 import {Alert,Alerts} from "reactstrap"
 import { Link } from "react-router-dom";
-import './form.css'
+import '../../form.css'
 
 const Register= ()=>{
 
